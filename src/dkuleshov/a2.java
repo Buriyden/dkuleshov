@@ -1,10 +1,9 @@
 package dkuleshov;
-
 public class a2 {
     public static void main(String[] args) {
         double a = 1;
-        double b = 8;
-        double c = 6;
+        double b = 2;
+        double c = 3;
         double d = b * b - 4 * a * c;
         if (d < 0) {
             System.out.println("Уравнение не имеет sqrt");

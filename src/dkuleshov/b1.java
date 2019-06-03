@@ -2,12 +2,12 @@ package dkuleshov;
 
 public class b1 {
     public static void main(String[] args){
-    int m=5;
-    int n=155;
+    int c=5;
+    int d=155;
     int a=25;
     int b=100;
-    double random=Math.random()*(-m+n)+m;
-    System.out.println(random+" from["+m+";"+n+"]");
+    double random=Math.random()*(-c+d)+c;
+    System.out.println(random+" from["+c+";"+d+"]");
     if ((a<=random)&&(random<=b)){
         System.out.println("in section["+a+";"+b+"]");
 

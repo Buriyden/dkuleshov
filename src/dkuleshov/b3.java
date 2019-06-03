@@ -2,24 +2,18 @@ package dkuleshov;
 import java.util.Scanner;
 public class b3 {
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Please enter positive integer: ");
-        int number = scanner.nextInt();
+        System.out.println("Введите целое положительное число");
+        int n = scanner.nextInt();
         int sum=0;
-        if (number<0) {
-            System.out.print("You entered negative number ");
-
+        if (n<0) {
+            System.out.println("Вы ввели отрицательнок число");
         }
-
         else {
-            for(int i = 0; i <=number; i++) {
+            for(int i = 0; i <=n; i++) {
                 sum+=i;
             }
         }
-
-        System.out.print("The sum of all numbers from 1 to " + number + " = " + sum
-        );
-
+        System.out.println("сумма от 1 до " + n + " = " + sum);
     }
 }
